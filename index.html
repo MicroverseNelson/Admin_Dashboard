@@ -4,87 +4,341 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div class="grid-container">
-            <div class="grid-items" id="sidebar">
-                <div class="sidebar_header">
-                    <img src="./assets/dashboard.png" alt="dashboard">
-                    <h1>Dashboard</h1>
+    <div class="container">
+        <div class="aside">
+            <div class="sidebar_header">
+                <img src="./assets/dashboard.png" alt="dashboard">
+                <h1>Dashboard</h1>
+            </div>
+            <div id="sidbar_menu_items">
+                <ul class="sidebar_links">
+                    <li>
+                        <a href="#home">
+                            <img src="./assets/home.png" alt="Home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/profile.png" alt="profile">
+                            profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/message.png" alt="Message">
+                            Message
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/history.png" alt="History">
+                            History
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/tasks.png" alt="Tasks">
+                            Tasks
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/communities.png" alt="communities">
+                            Communities
+                        </a>
+                    </li>
+                </ul>
+                 <hr>
+                <ul class="sidebar_links" id="utilities">
+                    <li>
+                        <a href="#setting">
+                            <img src="./assets/settings.png" alt="settings image">
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/support.png" alt="support image">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/privacy.png" alt="privacy image">
+                            privacy
+                        </a>
+                    </li>
+                </ul>
+
+                
+
+            </div>
+        </div>
+        <div class="header" id="header-content">
+            <div class="search">
+                <img src="./assets/search.png" alt="searchicon" >
+                <input type="text">
+            </div>
+            <div class="account1"> 
+                <img src="./assets/notification.png" alt="notification">
+                <img src="./assets/profile.png" alt="account">
+                <h4>Nelson Ongiti</h4> 
+            </div>
+            <div class="account2">
+                <div class="leve_2_account">
+                <img src="./assets/profile.png" alt="account">
+                <span>Hi there</span>
+                <h5>Nelson Ongiti (@Nelson)</h5>
                 </div>
-                <div id="sidbar_menu_items">
-                    <ul class="sidebar_links">
+                
+                <div class="btn-area">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="body-content">
+                <div class="card" id="card1">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card4">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card5">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card6">
+                    <div class="card_header">
+                        <h3>Super Cool Project</h3>
+                    </div>
+                    <hr>
+                    <div class="card_body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nihil cupiditate eveniet libero sunt sint corrupti voluptatum eaque nisi rerum, exercitationem soluta velit minus minima repellat vero delectus laborum 
+                    </div>
+                    <div class="card_footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/ratings.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/viewed.png" alt="ratings">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/share.png" alt="ratings">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="news-content">
+                <div class="news">
+                    <h3>Announcements</h3>
+                    <ul class="news_list">
+                        <li class="list-item">
+                            <h5>Site Maintenance</h5>
+                            <p>Lorem ipsum dolor, quas veritatis at necessitatibus suscipit quidem commodi, nesciunt magnam dicta ut dolor iusto molestiae esse quia velit vero eum nostrum porro illo?</p>
+                        </li>
+                        <hr>
+                        <li class="list-item">
+                            <h5>Site Maintenance</h5>
+                            <p>Lorem ipsum dolor, quas veritatis at necessitatibus suscipit quidem commodi, nesciunt magnam dicta ut dolor iusto molestiae esse quia velit vero eum nostrum porro illo?</p>
+                        </li>
+                        <hr>
+                        <li class="list-item">
+                            <h5>Site Maintenance</h5>
+                            <p>Lorem ipsum dolor, quas veritatis at necessitatibus suscipit quidem commodi, nesciunt magnam dicta ut dolor iusto molestiae esse quia velit vero eum nostrum porro illo?</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="trending">
+                      <h3>Trending</h3>
+                      <ul>
                         <li>
-                            <a href="#home">
-                                <img src="./assets/home.png" alt="Home">
-                                Home
+                            <a href="#">
+                                <img src="./assets/profile.png" alt="profile">
+                                <span>
+                                    <h6>@tegan</h6>
+                                    <p>World Peace Builder</p>
+                                </span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="./assets/profile.png" alt="profile">
-                                profile
+                                <span>
+                                    <h6>@tegan</h6>
+                                    <p>World Peace Builder</p>
+                                </span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./assets/message.png" alt="Message">
-                                Message
+                                <img src="./assets/profile.png" alt="profile">
+                                <span>
+                                    <h6>@tegan</h6>
+                                    <p>World Peace Builder</p>
+                                </span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./assets/history.png" alt="History">
-                                History
+                                <img src="./assets/profile.png" alt="profile">
+                                <span>
+                                    <h6>@tegan</h6>
+                                    <p>World Peace Builder</p>
+                                </span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/tasks.png" alt="Tasks">
-                                Tasks
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/communities.png" alt="communities">
-                                Communities
-                            </a>
-                        </li>
-                    </ul>
-                     <hr>
-                     <h3>Utilities</h3>
-                    <ul class="sidebar_links" id="utilities">
-                        <li>
-                            <a href="#setting">
-                                <img src="./assets/settings.png" alt="settings image">
-                                Settings
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/support.png" alt="support image">
-                                Support
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/privacy.png" alt="privacy image">
-                                privacy
-                            </a>
-                        </li>
-
-                    
+                      </ul>
+                      
 
                 </div>
             </div>
-            <div class="grid-items" id="header">header</div>
-            <div class="grid-items" id="mainContent">mainContent</div>
-            
         </div>
-    </main>
-    
+    </div>
 </body>
 </html>
