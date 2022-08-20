@@ -143,10 +143,6 @@
     margin: 14px 0 20px 0;
 }
 
-.aside #sidbar_menu_items #utilities {
-    margin-left: -26px;
-}
-
 .content {
     display: grid;
     grid-template-columns: minmax(80%, auto) minmax(20%, auto);
